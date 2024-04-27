@@ -1,0 +1,62 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+    --gray-1: #191C1F;
+    --gray-2: #212529;
+    --gray-3: #343A40;
+    --gray-4: #ADB5BD;
+    --gray-5: #CED4DA;
+    --gray-6: #EDF2FF;
+    --gray-7: #F8F9FA;
+  
+    --font-primary: "Inter", sans-serif;
+    --font-size-title1: 3.25rem;
+    --font-weight-title1: 600;
+    --font-line-height-title1: 140%;
+
+    --font-size-title2: 2.5rem;
+    --font-weight-title2: 600;
+    --font-line-height-title2: 160%;
+
+    --font-size-title3: 2rem;
+    --font-weight-title3: 600;
+    --font-line-height-title3: 160%;
+
+    --font-size-text1: 1.25rem;
+    --font-weight-text1: 400;
+    --font-line-height-text1: 150%;
+
+    --font-size-text2: 1.125rem;
+    --font-weight-text2: 400;
+    --font-line-height-text2: 150%;
+    
+    --font-size-text3: 1rem;
+    --font-weight-text3: 400;
+    --font-line-height-text3: 150%;
+
+    --font-size-text4: 1rem;
+    --font-weight-text4: 600;
+    --font-line-height-text4: 150%;
+
+    --box-padding: 5.125rem 14.75rem;
+    --box-gap: 3.5rem;
+
+    --brand-hover: #364FC7;
+
+}
+
+
+body{
+    font-family: var(--font-primary);
+    /* position: relative; */
+}
+
+dialog{
+    /* width: 28rem;
+    height: 21rem; */
+    padding: 0;
+    border: none;
+}
